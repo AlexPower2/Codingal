@@ -1,0 +1,9 @@
+def printnumber(n):
+    iteration= 0
+    iteration+=1
+    print("number entered =  ",n)
+    print("number of iteration = ",iteration)
+printnumber(10)
+printnumber(20)
+
+
