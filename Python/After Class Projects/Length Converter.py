@@ -2,7 +2,7 @@ from tkinter import *
 import tkinter as tk
 window=tk.Tk()
 window.geometry("400x400")
-window.title("Length Converter App")
+window.title("Length Conveinputrter App")
 
 LARGE_FONT= ("Arial", 12) 
 
