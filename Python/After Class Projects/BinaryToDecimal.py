@@ -1,13 +1,10 @@
-def binaryTodecimal(n):
-    decimal = 0
-    power = 1
-    while n>0:
-# Find the remainder of the given binary number.
-        rem = n%10
-        n = n//10
-        decimal += rem*power
-# For every remainder multiply it with the power of 2.
-        power = power*2
-        
-    return decimal
-print( binaryTodecimal(1111) )
+def binary_to_decimal():
+    while True:
+        binary_input = input("Enter your Binary (or 'exit' to quit): ")
+        if binary_input.lower() == 'exit':
+            break
+        try:
+            decimal_output = int(binary_input, 2)
+            print(f"Binary: {binary_input} Decimal: {decimal_output}")
+        except ValueError:
+            print("Invalid binary number. Please enter only 0's and 1's.")
