@@ -4,7 +4,7 @@ def input_numbers():
         print("Number -ve")
     else:
         print("Number +ve")
-        input_numbers()  # Recursive call if the number is non-negative
+        input_numbers() 
 
-# Start the program
+
 input_numbers()
